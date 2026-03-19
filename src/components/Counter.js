@@ -21,17 +21,9 @@ const Counter = () => {
 
   return (
     <div>
-      {/* Display counter value */}
       <h1>{count}</h1>
-      
-      {/* Buttons container */}
-      <div>
-        {/* Increment button - second child */}
-        <button onClick={handleIncrement}>Increment</button>
-        
-        {/* Decrement button - third child */}
-        <button onClick={handleDecrement}>Decrement</button>
-      </div>
+      <button onClick={handleIncrement}>increment</button>
+      <button onClick={handleDecrement}>decrement</button>
     </div>
   );
 };
